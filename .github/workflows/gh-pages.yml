@@ -28,7 +28,7 @@ jobs:
       - name: '🧶 Yarn'
         run: |
           yarn install
-          yarn format:check public | yarn format:write public
+          yarn format:write public
           yarn postinstall
       - name: '🚀 Deploy GH Pages'
         uses: peaceiris/actions-gh-pages@v3
