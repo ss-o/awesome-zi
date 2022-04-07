@@ -184,6 +184,8 @@
       "type": "folder"
     },
     {
+      "children": [
+    {
       "name": "Wiki",
       "type": "url",
       "url": "https://z.digitalclouds.dev"
@@ -192,6 +194,10 @@
       "name": "Localization",
       "type": "url",
       "url": "https://digitalclouds.crowdin.com/z-shell"
+    }
+      ],
+      "name": "Community",
+      "type": "folder"
     }
   ],
   "name": "Awesome ZI",
