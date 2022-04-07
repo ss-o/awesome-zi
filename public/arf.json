@@ -190,6 +190,11 @@
       "type": "url",
       "url": "https://z.digitalclouds.dev"
     },
+    {
+      "name": "Discussions",
+      "type": "url",
+      "url": "https://github.com/orgs/z-shell/discussions"
+    },
     { 
       "name": "Localization",
       "type": "url",
@@ -197,6 +202,33 @@
     }
       ],
       "name": "Community",
+      "type": "folder"
+    }
+  ],
+      {
+      "children": [
+    {
+      "name": "ZSDoc",
+      "type": "url",
+      "url": "https://github.com/z-shell/zsdoc"
+    },
+    {
+      "name": "Zsh String Lib",
+      "type": "url",
+      "url": "https://github.com/z-shell/zsh-string-lib"
+    },
+    {
+      "name": "Vramsteg",
+      "type": "url",
+      "url": "https://github.com/z-shell/vramsteg-zsh"
+    },
+    { 
+      "name": "ZI Vim Syntax",
+      "type": "url",
+      "url": "https://github.com/z-shell/zi-vim-syntax"
+    }
+    ],
+      "name": "ZI Hacking",
       "type": "folder"
     }
   ],
