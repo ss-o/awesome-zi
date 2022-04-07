@@ -191,6 +191,11 @@
       "url": "https://z.digitalclouds.dev"
     },
     {
+      "name": "Zsh Plugin Standard",
+      "type": "url",
+      "url": "https://z.digitalclouds.dev/community/zsh_plugin_standard"
+    },
+    {
       "name": "Discussions",
       "type": "url",
       "url": "https://github.com/orgs/z-shell/discussions"
