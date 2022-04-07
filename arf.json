@@ -1,0 +1,189 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "name": "F-Sy-H",
+          "type": "url",
+          "url": "https://github.com/z-shell/F-Sy-H"
+        },
+        {
+          "name": "H-S-MW",
+          "type": "url",
+          "url": "https://github.com/z-shell/H-S-MW"
+        },
+        {
+          "name": "Zsh Diff-So-Fancy",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsh-diff-so-fancy"
+        },
+        {
+          "name": "Zsh Navigation Tools",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsh-navigation-tools"
+        },
+        {
+          "name": "ZI Console",
+          "type": "url",
+          "url": "https: //github.com/z-shell/zi-console"
+        }
+      ],
+      "name": "Plugins",
+      "type": "folder"
+    },
+    {
+      "children": [
+        {
+          "name": "Meta Plugins",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-meta-plugins"
+        },
+        {
+          "name": "Bin Gem Node",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-bin-gem-node"
+        },
+        {
+          "name": "Read URL",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-readurl"
+        },
+        {
+          "name": "Patch DL",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-patch-dl"
+        },
+        {
+          "name": "Unscope",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-unscope"
+        },
+        {
+          "name": "Default ICE",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-default-ice"
+        },
+        {
+          "name": "Submods",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-submods"
+        },
+        {
+          "name": "Rust",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-rust"
+        }
+      ],
+      "name": "Annexes",
+      "type": "folder"
+    },
+    {
+      "children": [
+        {
+          "name": "Any Node",
+          "type": "url",
+          "url": "https://github.com/z-shell/any-node"
+        },
+        {
+          "name": "Any Gem",
+          "type": "url",
+          "url": "https://github.com/z-shell/any-gem"
+        },
+        {
+          "name": "Asciidoctor",
+          "type": "url",
+          "url": "https://github.com/z-shell/asciidoctor"
+        },
+        {
+          "name": "ECS-CLI",
+          "type": "url",
+          "url": "https://github.com/z-shell/ecs-cli"
+        },
+        {
+          "name": "Github Issues",
+          "type": "url",
+          "url": "https://github.com/z-shell/github-issues"
+        },
+        {
+          "name": "Github Issues Service",
+          "type": "url",
+          "url": "https://github.com/z-shell/github-issues-srv"
+        },
+        {
+          "name": "Subversion",
+          "type": "url",
+          "url": "https://github.com/z-shell/subversion"
+        },
+        {
+          "name": "System Completions",
+          "type": "url",
+          "url": "https://github.com/z-shell/system-completions"
+        },
+        {
+          "name": "Zsh",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsh"
+        },
+        {
+          "name": "Zsh Bin",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsh-bin"
+        },
+        {
+          "name": "Fzy",
+          "type": "url",
+          "url": "https://github.com/z-shell/fzy"
+        },
+        {
+          "name": "Fzf",
+          "type": "url",
+          "url": "https://github.com/z-shell/fzf"
+        },
+        {
+          "name": "Firefox DEV",
+          "type": "url",
+          "url": "https://github.com/z-shell/firefox-dev"
+        },
+        {
+          "name": "Pyenv",
+          "type": "url",
+          "url": "https://github.com/z-shell/pyenv"
+        },
+        {
+          "name": "Remark",
+          "type": "url",
+          "url": "https://github.com/z-shell/remark"
+        },
+        {
+          "name": "LS_COLORS",
+          "type": "url",
+          "url": "https://github.com/z-shell/ls_colors"
+        },
+        {
+          "name": "Dircolors material",
+          "type": "url",
+          "url": "https://github.com/z-shell/dircolors-material"
+        },
+        {
+          "name": "APR",
+          "type": "url",
+          "url": "https://github.com/z-shell/apr"
+        },
+        {
+          "name": "Doctoc",
+          "type": "url",
+          "url": "https://github.com/z-shell/doctoc"
+        },
+        {
+          "name": "NB",
+          "type": "url",
+          "url": "https://github.com/z-shell/nb"
+        }
+      ],
+      "name": "Packages",
+      "type": "folder"
+    }
+  ],
+  "name": "Awesome ZI",
+  "type": "folder"
+}
