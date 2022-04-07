@@ -241,6 +241,7 @@
       "type": "folder"
       }
   ],
-  "name": "<i class="fa-solid fa-code"></i>Awesome ZI",
+  "name": "Awesome ZI",
+  "class": "fa-solid fa-code",
   "type": "folder"
 }
