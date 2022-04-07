@@ -1,0 +1,35 @@
+{
+  "name": "awesome-zi",
+  "version": "1.0.0",
+  "description": "Awesome ZI resources",
+  "main": "public/index.html",
+  "scripts": {
+    "format:check": "prettier --check '**/*.{js,css,json,md}'",
+    "format:write": "prettier --write '**/*.{js,css,json,md}'",
+    "format:diff": "prettier --list-different .",
+    "postinstall": "copyfiles -f ./node_modules/d3/d3.min.js ./public/js/vendor/d3",
+    "start": "node_modules/http-server/bin/http-server public -i -g -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-shell/zi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/z-shell/zi/issues"
+  },
+  "homepage": "https://github.com/z-shell/zi#readme",
+  "devDependencies": {
+    "copyfiles": "2.4.1",
+    "d3": "7.4.2",
+    "http-server": "14.1.0",
+    "prettier": "2.6.2"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0",
+  "resolutions": {
+    "minimist": ">=1.2.5",
+    "axios": ">=0.21.2",
+    "nth-check": ">=2.0.1",
+    "trim": ">=0.0.3"
+  }
+}
