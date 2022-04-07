@@ -222,6 +222,11 @@
       "url": "https://github.com/z-shell/zsh-string-lib"
     },
     {
+      "name": "Zsh Util Lib",
+      "type": "url",
+      "url": "https://github.com/z-shell/zsh-util-lib"
+    },
+    {
       "name": "Vramsteg",
       "type": "url",
       "url": "https://github.com/z-shell/vramsteg-zsh"
