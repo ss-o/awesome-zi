@@ -1,5 +1,5 @@
 ---
-name: '🚀 GH Pages [ Deploy ]'
+name: '🚀 GH Pages [Deploy]'
 
 on:
   workflow_dispatch:
@@ -13,9 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+    timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [16]
+        node-version: [17]
     steps:
       - uses: actions/checkout@v3
       - name: '♻️  Node.js ${{ matrix.node-version }}'
@@ -23,10 +25,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'yarn'
-      - name: '♻️ Deployment [ build ]'
-        run: |
-          yarn install
-          yarn postinstall
+      - name: '🧶 Yarn'
+        uses: Borales/actions-yarn@v2.3.0
+        with:
+          cmd: |
+            yarn install
+            yarn postinstall
       - name: '🚀 Deploy GH Pages'
         uses: peaceiris/actions-gh-pages@v3
         with:
