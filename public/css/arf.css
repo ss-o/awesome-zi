@@ -66,7 +66,7 @@ img[src$="#floatright"] {
 
 .node text {
   font-family: var(--fa-xs-style-family, "Font Awesome 6 Free");
-  font-weight: var(--fa-style, 900); }
+  font-weight: var(--fa-style, 900);
   line-height: 0.8;
   fill: rgb(0, 255, 0);
   stroke: lime;
