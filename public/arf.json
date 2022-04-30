@@ -23,10 +23,16 @@
           "url": "https://github.com/z-shell/zsh-navigation-tools"
         },
         {
-          "name": "ZI Console",
-          "type": "url",
-          "url": "https: //github.com/z-shell/zi-console"
-        }
+          "children": [
+            {
+              "name": "ZI Console",
+              "type": "url",
+              "url": "https: //github.com/z-shell/zi-console"
+            }
+        ],
+        "name": "Compatible Solely with ZI",
+        "type": "folder"
+       }
       ],
       "name": "Plugins",
       "type": "folder"
