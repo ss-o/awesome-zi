@@ -1,6 +1,4 @@
 :root {
-  font-family: var(--fa-style-family, "Font Awesome 6 Free");
-  font-weight: var(--fa-style, 900);
   --color-green: #66db23;
   --color-yellow: #ffc822;
   --color-red: #df401c;
@@ -8,6 +6,7 @@
   --color-midgrey: #505050;
   --color-lightgrey: #c6cccf;
   --color-wash: #e5eff5;
+  --color-gold: #ffd700;
   --color-darkmode: #151719;
 }
 
@@ -15,6 +14,8 @@ body {
   color: lime;
   background-color: var(--color-darkmode);
   margin: 0;
+  display: none;
+  transition: width 2s, height 4s;
 }
 
 html {
@@ -47,7 +48,6 @@ img[src$="#floatright"] {
 
 .footer {
   font-size: 10px;
-  font-weight: bold;
   position: relative;
 }
 
@@ -59,12 +59,10 @@ img[src$="#floatright"] {
   cursor: pointer;
   fill: rgb(0, 255, 0);
   stroke: lime;
-  stroke-width: 1.5px;
+  stroke-width: 1.2px;
 }
 
 .node text {
-  font-family: var(--fa-xs-style-family, "Font Awesome 6 Free");
-  font-weight: var(--fa-style, 900);
   line-height: 0.8;
   fill: rgb(0, 255, 0);
   stroke: lime;
@@ -72,6 +70,18 @@ img[src$="#floatright"] {
 
 path.link {
   fill: none;
-  stroke: var(--color-midgrey);
-  stroke-width: 1px;
+  stroke: var(--color-gold);
+  stroke-width: 0.4;
+}
+
+div {
+  transition: width 2s, height 4s;
+}
+
+a:link {
+  color: var(--color-gold);
+}
+
+a:visited {
+  color: var(--color-green);
 }
