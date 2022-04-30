@@ -29,6 +29,7 @@ lint:
     - linters: [ALL]
       paths:
         - ".yarn/**"
+        - ".husky/**"
     - linters: [actionlint]
       paths:
         - .github/workflows/sync-labels.yml
