@@ -14,8 +14,6 @@ body {
   color: lime;
   background-color: var(--color-darkmode);
   margin: 0;
-  display: none;
-  transition: width 2s, height 4s;
 }
 
 html {
