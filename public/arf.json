@@ -186,14 +186,9 @@
     {
       "children": [
         {
-          "name": "Wiki",
+          "name": "ZI Wiki",
           "type": "url",
           "url": "https://z.digitalclouds.dev"
-        },
-        {
-          "name": "Zsh Plugin Standard",
-          "type": "url",
-          "url": "https://z.digitalclouds.dev/community/zsh_plugin_standard"
         },
         {
           "name": "Discussions",
@@ -201,7 +196,7 @@
           "url": "https://github.com/orgs/z-shell/discussions"
         },
         {
-          "name": "Localization",
+          "name": "Translations",
           "type": "url",
           "url": "https://digitalclouds.crowdin.com/z-shell"
         }
@@ -241,7 +236,6 @@
       "type": "folder"
     }
   ],
-  "name": "Awesome ZI",
-  "class": "fa-solid fa-code",
+  "name": "❮ ZI ❯",
   "type": "folder"
 }
