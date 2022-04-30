@@ -185,61 +185,61 @@
     },
     {
       "children": [
-    {
-      "name": "Wiki",
-      "type": "url",
-      "url": "https://z.digitalclouds.dev"
-    },
-    {
-      "name": "Zsh Plugin Standard",
-      "type": "url",
-      "url": "https://z.digitalclouds.dev/community/zsh_plugin_standard"
-    },
-    {
-      "name": "Discussions",
-      "type": "url",
-      "url": "https://github.com/orgs/z-shell/discussions"
-    },
-    { 
-      "name": "Localization",
-      "type": "url",
-      "url": "https://digitalclouds.crowdin.com/z-shell"
-    }
+        {
+          "name": "Wiki",
+          "type": "url",
+          "url": "https://z.digitalclouds.dev"
+        },
+        {
+          "name": "Zsh Plugin Standard",
+          "type": "url",
+          "url": "https://z.digitalclouds.dev/community/zsh_plugin_standard"
+        },
+        {
+          "name": "Discussions",
+          "type": "url",
+          "url": "https://github.com/orgs/z-shell/discussions"
+        },
+        {
+          "name": "Localization",
+          "type": "url",
+          "url": "https://digitalclouds.crowdin.com/z-shell"
+        }
       ],
       "name": "Community",
       "type": "folder"
     },
-      {
+    {
       "children": [
-    {
-      "name": "ZSDoc",
-      "type": "url",
-      "url": "https://github.com/z-shell/zsdoc"
-    },
-    {
-      "name": "Zsh String Lib",
-      "type": "url",
-      "url": "https://github.com/z-shell/zsh-string-lib"
-    },
-    {
-      "name": "Zsh Util Lib",
-      "type": "url",
-      "url": "https://github.com/z-shell/zsh-util-lib"
-    },
-    {
-      "name": "Vramsteg",
-      "type": "url",
-      "url": "https://github.com/z-shell/vramsteg-zsh"
-    },
-    { 
-      "name": "ZI Vim Syntax",
-      "type": "url",
-      "url": "https://github.com/z-shell/zi-vim-syntax"
-    }
-    ],
+        {
+          "name": "ZSDoc",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsdoc"
+        },
+        {
+          "name": "Zsh String Lib",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsh-string-lib"
+        },
+        {
+          "name": "Zsh Util Lib",
+          "type": "url",
+          "url": "https://github.com/z-shell/zsh-util-lib"
+        },
+        {
+          "name": "Vramsteg",
+          "type": "url",
+          "url": "https://github.com/z-shell/vramsteg-zsh"
+        },
+        {
+          "name": "ZI Vim Syntax",
+          "type": "url",
+          "url": "https://github.com/z-shell/zi-vim-syntax"
+        }
+      ],
       "name": "ZI Hacking",
       "type": "folder"
-      }
+    }
   ],
   "name": "Awesome ZI",
   "class": "fa-solid fa-code",

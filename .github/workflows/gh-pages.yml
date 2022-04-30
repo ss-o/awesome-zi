@@ -1,5 +1,5 @@
 ---
-name: '🚀 GH Pages [Deploy]'
+name: "🚀 GH Pages [Deploy]"
 
 on:
   workflow_dispatch:
@@ -20,17 +20,17 @@ jobs:
         node-version: [17]
     steps:
       - uses: actions/checkout@v3
-      - name: '♻️  Node.js ${{ matrix.node-version }}'
+      - name: "♻️  Node.js ${{ matrix.node-version }}"
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
-      - name: '🧶 Yarn'
+          cache: "yarn"
+      - name: "🧶 Yarn"
         run: |
           yarn install
           yarn format:write public
           yarn postinstall
-      - name: '🚀 Deploy GH Pages'
+      - name: "🚀 Deploy GH Pages"
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

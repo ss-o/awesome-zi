@@ -1,6 +1,4 @@
-@import "all.css";
-
-:root { 
+:root {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900);
   --color-green: #66db23;
