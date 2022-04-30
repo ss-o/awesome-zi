@@ -1,6 +1,6 @@
-@import url("/css/all.min.css");
-
 :root {
+  --fa-style-family: "Font Awesome 6 Free";
+  --fa-style: 900;
   --color-green: #66db23;
   --color-yellow: #ffc822;
   --color-red: #df401c;
@@ -63,7 +63,6 @@ img[src$="#floatright"] {
 }
 
 .node text {
-  line-height: 0.8;
   fill: rgb(0, 255, 0);
   stroke: lime;
 }
@@ -71,11 +70,7 @@ img[src$="#floatright"] {
 path.link {
   fill: none;
   stroke: var(--color-gold);
-  stroke-width: 0.4;
-}
-
-div {
-  transition: width 2s, height 4s;
+  stroke-width: 0.2;
 }
 
 a:link {

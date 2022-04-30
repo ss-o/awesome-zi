@@ -3,6 +3,17 @@
     {
       "children": [
         {
+          "children": [
+            {
+              "name": "ZI Console",
+              "type": "url",
+              "url": "https: //github.com/z-shell/zi-console"
+            }
+          ],
+          "name": "Solely For ZI",
+          "type": "folder"
+        },
+        {
           "name": "F-Sy-H",
           "type": "url",
           "url": "https://github.com/z-shell/F-Sy-H"
@@ -21,18 +32,7 @@
           "name": "Zsh Navigation Tools",
           "type": "url",
           "url": "https://github.com/z-shell/zsh-navigation-tools"
-        },
-        {
-          "children": [
-            {
-              "name": "ZI Console",
-              "type": "url",
-              "url": "https: //github.com/z-shell/zi-console"
-            }
-        ],
-        "name": "Compatible Solely with ZI",
-        "type": "folder"
-       }
+        }
       ],
       "name": "Plugins",
       "type": "folder"
@@ -50,9 +50,9 @@
           "url": "https://github.com/z-shell/z-a-bin-gem-node"
         },
         {
-          "name": "Read URL",
+          "name": "Default Ice",
           "type": "url",
-          "url": "https://github.com/z-shell/z-a-readurl"
+          "url": "https://github.com/z-shell/z-a-default-ice"
         },
         {
           "name": "Patch DL",
@@ -60,14 +60,14 @@
           "url": "https://github.com/z-shell/z-a-patch-dl"
         },
         {
+          "name": "Read URL",
+          "type": "url",
+          "url": "https://github.com/z-shell/z-a-readurl"
+        },
+        {
           "name": "Unscope",
           "type": "url",
           "url": "https://github.com/z-shell/z-a-unscope"
-        },
-        {
-          "name": "Default ICE",
-          "type": "url",
-          "url": "https://github.com/z-shell/z-a-default-ice"
         },
         {
           "name": "Submods",
@@ -171,14 +171,14 @@
           "url": "https://github.com/z-shell/dircolors-material"
         },
         {
-          "name": "APR",
-          "type": "url",
-          "url": "https://github.com/z-shell/apr"
-        },
-        {
           "name": "Doctoc",
           "type": "url",
           "url": "https://github.com/z-shell/doctoc"
+        },
+        {
+          "name": "APR",
+          "type": "url",
+          "url": "https://github.com/z-shell/apr"
         },
         {
           "name": "NB",
@@ -213,9 +213,9 @@
     {
       "children": [
         {
-          "name": "ZSDoc",
+          "name": "ZI Vim Syntax",
           "type": "url",
-          "url": "https://github.com/z-shell/zsdoc"
+          "url": "https://github.com/z-shell/zi-vim-syntax"
         },
         {
           "name": "Zsh String Lib",
@@ -233,12 +233,12 @@
           "url": "https://github.com/z-shell/vramsteg-zsh"
         },
         {
-          "name": "ZI Vim Syntax",
+          "name": "ZSDoc",
           "type": "url",
-          "url": "https://github.com/z-shell/zi-vim-syntax"
+          "url": "https://github.com/z-shell/zsdoc"
         }
       ],
-      "name": "ZI Hacking",
+      "name": "Hacking",
       "type": "folder"
     }
   ],
