@@ -1,3 +1,5 @@
+@imoprt './css/all.css';
+
 :root {
   --fa-style-family: "Font Awesome 6 Free";
   --fa-style: 900;
