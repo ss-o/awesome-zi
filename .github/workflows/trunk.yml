@@ -1,4 +1,3 @@
-
 ---
 name: "⭕ Trunk"
 on:
@@ -7,8 +6,8 @@ on:
     tags: ["v*.*.*"]
   pull_request:
     types: [opened, synchronize]
-#  schedule:
-#      - cron: 0 04 * * 1-5
+  #  schedule:
+  #      - cron: 0 04 * * 1-5
   workflow_dispatch: {}
 
 jobs:
@@ -16,4 +15,4 @@ jobs:
     name: "⚡"
     uses: z-shell/.github/.github/workflows/trunk-call.yml@main
     with:
-      pnpm_arguments: 'pnpm i'
+      pnpm_arguments: "pnpm i"
