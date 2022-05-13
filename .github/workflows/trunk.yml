@@ -15,3 +15,5 @@ jobs:
   check-call:
     name: "⚡"
     uses: z-shell/.github/.github/workflows/trunk-call.yml@main
+    with:
+      pnpm_arguments: 'pnpm i'
