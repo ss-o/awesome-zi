@@ -36,5 +36,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-          user_name: digital-teams[bot]
-          user_email: digital-teams@pm.me
+          #user_name: digital-teams[bot]
+          #user_email: digital-teams@pm.me
