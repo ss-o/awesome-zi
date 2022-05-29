@@ -5,7 +5,7 @@
         {
           "children": [
             {
-              "name": "ZI Console",
+              "name": "Console",
               "type": "url",
               "url": "https: //github.com/z-shell/zi-console"
             }
@@ -14,7 +14,7 @@
           "type": "folder"
         },
         {
-          "name": "F-Sy-H",
+          "name": " Feature-rich Syntax Highlighting",
           "type": "url",
           "url": "https://github.com/z-shell/F-Sy-H"
         },
@@ -121,6 +121,11 @@
           "url": "https://github.com/z-shell/subversion"
         },
         {
+          "name": "Brew Completions",
+          "type": "url",
+          "url": "https://github.com/z-shell/brew-completions"
+        },
+        {
           "name": "System Completions",
           "type": "url",
           "url": "https://github.com/z-shell/system-completions"
@@ -197,6 +202,11 @@
           "url": "https://z.digitalclouds.dev"
         },
         {
+          "name": "Slack",
+          "type": "url",
+          "url": "https://z-shell.slack.com"
+        },
+        {
           "name": "Discussions",
           "type": "url",
           "url": "https://github.com/orgs/z-shell/discussions"
@@ -213,7 +223,7 @@
     {
       "children": [
         {
-          "name": "ZI Vim Syntax",
+          "name": "Vim Syntax for ZI",
           "type": "url",
           "url": "https://github.com/z-shell/zi-vim-syntax"
         },
