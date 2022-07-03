@@ -33,7 +33,7 @@ __metadata:
   resolution: "awesome-zi@workspace:."
   dependencies:
     copyfiles: 2.4.1
-    d3: 7.4.4
+    d3: 7.6.1
     http-server: 14.1.0
     husky: 8.0.1
     pinst: 3.0.0
@@ -169,6 +169,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"d3-array@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "d3-array@npm:3.2.0"
+  dependencies:
+    internmap: 1 - 2
+  checksum: e236f6670b60b64abb6c435da25b5cbbdc2c7c0decdbf9355bc4cf6803d6da4fa820b7b78b9cbd127edb493555934a9788d45084c2f39d7c2e1a2b7aa48264a4
+  languageName: node
+  linkType: hard
+
 "d3-axis@npm:3":
   version: 3.0.0
   resolution: "d3-axis@npm:3.0.0"
@@ -205,12 +214,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-contour@npm:3":
-  version: 3.0.1
-  resolution: "d3-contour@npm:3.0.1"
+"d3-contour@npm:4":
+  version: 4.0.0
+  resolution: "d3-contour@npm:4.0.0"
   dependencies:
-    d3-array: 2 - 3
-  checksum: efd5f092562c4883ac7372968e59018339e4448c816f9113c4d8a54c93bf93fa7395e9f97c7168dab2755aa3442c2e03e5170a3129567be15c64f8a17739089e
+    d3-array: ^3.2.0
+  checksum: 1f9b9e56d0966d98a4c740b6af32b4fa2d14424159644adc24f4eb0ab023afbd414938f63f95032a66407fb701f4966efe40875e2cc0460fb653a943d3fc86b0
   languageName: node
   linkType: hard
 
@@ -440,16 +449,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3@npm:7.4.4":
-  version: 7.4.4
-  resolution: "d3@npm:7.4.4"
+"d3@npm:7.6.1":
+  version: 7.6.1
+  resolution: "d3@npm:7.6.1"
   dependencies:
     d3-array: 3
     d3-axis: 3
     d3-brush: 3
     d3-chord: 3
     d3-color: 3
-    d3-contour: 3
+    d3-contour: 4
     d3-delaunay: 6
     d3-dispatch: 3
     d3-drag: 3
@@ -474,7 +483,7 @@ __metadata:
     d3-timer: 3
     d3-transition: 3
     d3-zoom: 3
-  checksum: 7ac001138e03546ff59633f2b48ab795e009e19018586c90a948d614ffc255aac585937f2bfe4265fb1e51799cc16cffbbc8a7030275036d5c4ea13c432c0dfc
+  checksum: af883cfeaf0a861afb2424edcb5419a5c56c84ddbc1ac9c7771c569f1926ace8db3cf0f4996038eb1db9700f7335e30c23b885199e0320a002893492ae83b415
   languageName: node
   linkType: hard
 
